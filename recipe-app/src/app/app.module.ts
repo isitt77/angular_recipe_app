@@ -12,6 +12,7 @@ import { RecipeDetailComponent } from './header/recipe-list/recipe-detail/recipe
 import { ShoppingListEditComponent } from './header/shopping-list/shopping-list-edit/shopping-list-edit.component';
 import { RecipesComponent } from './header/recipes/recipes.component';
 import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgxNavbarModule
+    NgxNavbarModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
