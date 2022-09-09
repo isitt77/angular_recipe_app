@@ -13,6 +13,7 @@ import { ShoppingListEditComponent } from './header/shopping-list/shopping-list-
 import { RecipesComponent } from './header/recipes/recipes.component';
 import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
 import { FormsModule } from '@angular/forms';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     RecipeItemComponent,
     RecipeDetailComponent,
     ShoppingListEditComponent,
-    RecipesComponent
+    RecipesComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
